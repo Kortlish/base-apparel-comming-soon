@@ -36,11 +36,14 @@
         <p class="main__subtitle-text">Hello fellow shoppers! We're currently building our new fashion store. 
           Add your email below to stay up-to-date with announcements and our launch deals.</p>
       </div>
-      <section class="main__newsletter">
-        <input class="main__newsletter-input" type="text" placeholder="Email Address">
-        <button class="main__newsletter-submit" type="submit"><img src="./images/icon-arrow.svg" alt=""></button>
+      <section class="main__newsletter newsletter">
+        <input id="typeemail" class="main__newsletter-input" type="email" placeholder="Email Address">
+        <button id="submit" class="main__newsletter-submit" type="submit"><img src="./images/icon-arrow.svg" alt=""></button>
+        <p class="main__newsletter__error error-message">Please provide a valid email</p>
       </section>
     </div>
   </main>
+
+  <script src="./js/script.js"></script>
 </body>
 </html>
